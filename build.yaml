@@ -13,6 +13,7 @@
 #
 ---
 include:
+<<<<<<< HEAD
   - board: nice_nano 
     shield: cck_ball_left
   - board: nice_nano 
@@ -20,4 +21,13 @@ include:
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano 
+=======
+  - board: nice_nano
+    shield: cck_ball_left
+  - board: nice_nano
+    shield: cck_ball_right
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: nice_nano
+>>>>>>> b720ed80d087206eb13335a30c4c3856722ca950
     shield: settings_reset
